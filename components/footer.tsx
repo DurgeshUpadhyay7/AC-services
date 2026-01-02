@@ -73,6 +73,28 @@ export function Footer() {
       <div className="container mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-xs">
         © 2026 Cooling Service System. All Rights Reserved. Owner: Waheed.
       </div>
+      <div className="bg-white border-t border-gray-200 py-6 text-center">
+  <p className="text-xs text-gray-600">
+    Website Designed & Developed by
+  </p>
+
+  <a
+    href="https://techpotli.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex justify-center mt-3"
+  >
+    <img
+      src="/New_Techpotli_Logo.png"
+      alt="TechPotli"
+      className="h-10 opacity-90 hover:opacity-100 transition"
+    />
+  </a>
+
+  <p className="text-xs text-gray-500 mt-2">
+    Professional Business Solutions • Digital Excellence
+  </p>
+</div>
     </footer>
   )
 }
